@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#2F3451"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/zz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/dd" />
+
+    <TextView
+        android:id="@+id/hh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="493dp"
+        android:background="#AFAEB1"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/your_birthday"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="Press"
+        android:text="PRESS"
+        android:background="#656161"
+        android:textColor="#ffff"
+        />
+
+    <EditText
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="219dp"
+        android:background="#DDA8E6"
+        android:ems="10"
+        android:hint="NOTHING"
+        android:inputType="textPersonName"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="290dp"
+        android:background="#CB94D5"
+        android:ems="10"
+        android:hint="NOTHING"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="358dp"
+        android:background="#D996E4"
+        android:ems="10"
+        android:hint="NOTHING"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="430dp"
+        android:autofillHints=""
+        android:background="#BCA1ED"
+        android:ems="10"
+        android:hint="YOUR AGE"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/nnn"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="75dp"
+
+        android:text="next page"
+        android:background="#656161"
+        android:textColor="#ffff"/>
+
+</RelativeLayout>
